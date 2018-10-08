@@ -1,6 +1,9 @@
 public class HelloWorld {
    public static void main(String[] args) {
       // Prints "Hello, World" in the terminal window.
-      System.out.println("Hello, World VY");
+	Scanner keyboard = new Scanner(System.in);
+	System.out.println("enter an name");
+	String myint = keyboard.nextLine();
+      System.out.println(“Hello World I am TDTU”);
    }
 }
