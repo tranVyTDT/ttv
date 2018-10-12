@@ -5,10 +5,11 @@ public class HelloWorld {
 	Scanner keyboard = new Scanner(System.in);
 	System.out.println("enter an name");
 	String myint = keyboard.nextLine();
-      System.out.println(“Hello World I am TDTU” + myint);
+      System.out.println(“Hello World This is TDTU”);
 =======
 	
-      System.out.println(“Hello World This is TDTU”);
+      System.out.println(“Hello World I am ”  myint);
+	  System.out.println(“10 students”);
 >>>>>>> tdtu
    }
 }
